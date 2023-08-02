@@ -1,0 +1,11 @@
+.buttonStyle {
+  align-items: center;
+  background-color: #2e6bf0;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  height: 76px;
+  width: 76px;
+  justify-content: center;
+}

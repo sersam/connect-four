@@ -1,0 +1,19 @@
+.buttonStyle {
+  align-items: center;
+  background-color: #2e6bf0;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  padding: 15px;
+  justify-content: center;
+}
+
+.buttonIcon {
+    margin-right: 20px;
+  margin-left: 20px;
+}
+
+.buttonText {
+  font-size: 18px;
+}

@@ -1,0 +1,47 @@
+.gameBoard {
+  border-radius: 30px;
+  background-color: #f7f7f7;
+}
+
+.boardRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.boardColumn {
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  box-shadow: 0 -2px #1b166e1c;
+  margin: 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.yellowPiece {
+  background-color: yellow;
+  animation: colorYellow 1s;
+}
+
+.redPiece {
+  background-color: red;
+  animation: colorRed 1s;
+}
+
+@keyframes colorRed {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: red;
+  }
+}
+
+@keyframes colorYellow {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: yellow;
+  }
+}
